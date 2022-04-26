@@ -135,7 +135,7 @@ img {
     /* text-shadow: 2px 2px gray; */
     font-weight: bold;
     height: 80px;
-    width: 768px;
+    width: 100%;
 }
 
 #main-content {
@@ -222,6 +222,112 @@ img {
     font-size: 45px;
     background-color: #bdb9c6;
     opacity: .4;
+}
 
+@media(max-width: 900px){
+    #main-content{
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .event-date{
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .event-desc{
+        width: 425px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .time-line{
+        text-align: center;
+        font-size: 30px;
+        line-height: 90px;
+    }
+    #footer{
+        margin-top: 20rem;
+    }
+    #large, #quote{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 700px){
+    #main-content{
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .event-date{
+        width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .event-desc{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footer{
+        margin-top: 20rem;
+    }
     
+}
+
+@media(max-width: 800px){
+    #footer{
+        margin-top: 40%;
+    }
+    #large, #quote{
+        font-size: 20px;
+    }
+    #footer{
+        margin-top: 20rem;
+    }
+}
+
+@media(max-width: 600px){
+    #main-content{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .event-date{
+        width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .event-desc{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+    }
+    #footer{
+        margin-top: 30rem;
+    }
+}
+
+@media(max-width: 500px){
+    #footer{
+        margin-top: 30rem;
+    }
+}
+
+@media(max-width: 400px){
+    #footer{
+        margin-top: 30rem;
+    }
+    #large, #quote{
+        font-size: 15px;
+    }
+    .time-line{
+        font-size: 25px;
+    }
 }
